@@ -2390,8 +2390,9 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 ;
 		padding-left: 1em;
+
 	}
 
 		ul li {
@@ -3190,6 +3191,8 @@
 
 	#nav {
 		display: inline-block;
+		float:right;
+
 	}
 
 		@media screen and (max-width: 980px) {
@@ -3944,7 +3947,7 @@
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 0 2em 0;
+				padding: 1em;
 			}
 
 		}
@@ -3956,3 +3959,9 @@
 			}
 
 		}
+
+	.social-media-footer{
+		display:flex;
+		align-items: center;
+
+	}

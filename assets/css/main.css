@@ -1966,7 +1966,7 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #fceced;
+				background: white;
 			}
 
 			input[type="submit"].alt:active,
@@ -2241,7 +2241,7 @@
 	select,
 	textarea {
 		background: none;
-		border-color: #fceced;
+		border-color: white;
 	}
 
 		input[type="text"]:focus,
@@ -3964,4 +3964,9 @@
 		display:flex;
 		align-items: center;
 
+	}
+
+	#contact-form{
+		background-color: #e0e0e0;
+		padding:20px;
 	}

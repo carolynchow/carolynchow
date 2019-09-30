@@ -4616,3 +4616,216 @@
 						}
 
 				}
+				/*BANNER CONTACT*/
+
+				#banner-contact {
+					background-color: #e5474b;
+					color: #f2a3a5;
+					padding: 13em 0 11em 0;
+					background-color: #0c0c0c;
+					background-image: url("../../photography/20180518-2B6A0931.jpg");
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center center;
+					text-align: left;
+					position: relative;
+					z-index: 9999;
+				}
+						#banner-contact input, #banner-contact select, #banner-contact textarea {
+							color: #ffffff;
+						}
+
+						#banner-contact a {
+							color: #ffffff;
+						}
+
+						#banner-contact strong, #banner-contact b {
+							color: #ffffff;
+						}
+
+						#banner-contact h1, #banner-contact h2, #banner-contact h3, #banner-contact h4, #banner-contact h5, #banner-contact h6 {
+							color: #fff;
+						}
+
+						#banner-contact blockquote {
+							border-left-color: #fff;
+						}
+
+						#banner-contact code {
+							background: none;
+							border-color: #fff;
+						}
+
+						#banner-contact hr {
+							border-bottom-color: #fff;
+						}
+
+						#banner-contact input[type="submit"],
+						#banner-contact input[type="reset"],
+						#banner-contact input[type="button"],
+						#banner-contact button,
+						#banner-contact .button {
+							background-color: #5a5a5a;
+							color: #ffffff !important;
+						}
+
+							#banner-contact input[type="submit"]:hover,
+							#banner-contact input[type="reset"]:hover,
+							#banner-contact input[type="button"]:hover,
+							#banner-contact button:hover,
+							#banner-contact .button:hover {
+								background-color: #676767;
+							}
+
+							#banner-contact input[type="submit"]:active,
+							#banner-contact input[type="reset"]:active,
+							#banner-contact input[type="button"]:active,
+							#banner-contact button:active,
+							#banner-contact .button:active {
+								background-color: #4d4d4d;
+							}
+
+							#banner-contact input[type="submit"].alt,
+							#banner-contact input[type="reset"].alt,
+							#banner-contact input[type="button"].alt,
+							#banner-contact button.alt,
+							#banner-contact .button.alt {
+								background-color: transparent;
+								box-shadow: inset 0 0 0 2px #fff;
+								color: #ffffff !important;
+							}
+
+								#banner-contact input[type="submit"].alt:hover,
+								#banner-contact input[type="reset"].alt:hover,
+								#banner-contact input[type="button"].alt:hover,
+								#banner-contact button.alt:hover,
+								#banner-contact .button.alt:hover {
+									background: rgba(255, 255, 255, 0.25);
+								}
+
+								#banner-contact input[type="submit"].alt:active,
+								#banner-contact input[type="reset"].alt:active,
+								#banner-contact input[type="button"].alt:active,
+								#banner-contact button.alt:active,
+								#banner-contact .button.alt:active {
+									background-color: rgba(255, 255, 255, 0.2);
+								}
+
+								#banner-contact input[type="submit"].alt.icon:before,
+								#banner-contact input[type="reset"].alt.icon:before,
+								#banner-contact input[type="button"].alt.icon:before,
+								#banner-contact button.alt.icon:before,
+								#banner-contact .button.alt.icon:before {
+									color: #f8d1d2;
+								}
+
+							#banner-contact input[type="submit"].special,
+							#banner-contact input[type="reset"].special,
+							#banner-contact input[type="button"].special,
+							#banner-contact button.special,
+							#banner-contact .button.special {
+								background-color: #ffffff;
+								color: #e5474b !important;
+							}
+
+						#banner-contact:after {
+							-moz-transition: opacity 4s ease;
+							-webkit-transition: opacity 4s ease;
+							-ms-transition: opacity 4s ease;
+							transition: opacity 4s ease;
+							content: '';
+							position: absolute;
+							width: 100%;
+							height: 100%;
+							display: block;
+							top: 0;
+							left: 0;
+							background-color: #0c0c0c;
+							opacity: 0.25;
+						}
+
+						#banner-contact .inner {
+							max-width: 65em;
+							width: calc(100% - 6em);
+							margin: 0 auto;
+							position: relative;
+							z-index: 10000;
+							line-height: 1.5;
+						}
+
+							@media screen and (max-width: 480px) {
+
+								#banner-contact .inner {
+									max-width: 90%;
+									width: 90%;
+								}
+
+							}
+
+						#banner-contact h1 {
+							font-size: 2em;
+							margin: 0 0 1em 0;
+							padding: 0;
+							letter-spacing: 3px;
+							font-weight: 700;
+						}
+
+							#banner-contact h1 span {
+								font-weight: 400;
+							}
+
+						body.is-loading #banner-contact:after {
+							opacity: 1;
+						}
+
+						@media screen and (max-width: 1680px) {
+
+							#banner-contact {
+								padding: 10em 0 8em 0;
+							}
+
+						}
+
+						@media screen and (max-width: 1280px) {
+
+							#banner-contact {
+								padding: 8em 0 6em 0;
+							}
+
+						}
+
+						@media screen and (max-width: 980px) {
+
+							#banner-contact {
+								padding: 12em 0 10em 0;
+							}
+
+								#banner-contact br {
+									display: none;
+								}
+
+						}
+
+						@media screen and (max-width: 736px) {
+
+							#banner-contact {
+								padding: 4em 0 2em 0;
+							}
+
+								#banner-contact h1 {
+									font-size: 1.75em;
+								}
+
+						}
+
+						@media screen and (max-width: 480px) {
+
+							#banner-contact {
+								padding: 5em 0 3em 0;
+							}
+
+								#banner-contact ul {
+									margin-top: 1em;
+								}
+
+						}

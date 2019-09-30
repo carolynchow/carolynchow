@@ -2337,7 +2337,7 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
@@ -4185,3 +4185,7 @@
 					}
 
 			}
+.vsection{
+	width: 50%;
+	height: 100%
+}

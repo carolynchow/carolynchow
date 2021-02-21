@@ -1,2 +1,0 @@
-# carolynchow
-CREATION OF README.
